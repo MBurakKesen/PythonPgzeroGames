@@ -1,6 +1,7 @@
 import pgzrun
 import random
 import time
+import math
 
 WIDTH = 800
 HEIGHT = 600
@@ -165,4 +166,3 @@ def update():
         reset_game(game_started2)
 
 
-pgzrun.go()
